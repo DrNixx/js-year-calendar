@@ -160,7 +160,7 @@ export default class Calendar<T extends CalendarDataSourceElement> {
 			throw new Error("The element parameter should be a DOM node or a selector");
 		}
 
-		this.element.classList.add('calendar');
+		this.element.classList.add('year-calendar');
 		
 		this._initializeEvents(options);
 		this._initializeOptions(options);
